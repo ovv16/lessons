@@ -1,0 +1,48 @@
+@import url("reset.css");
+
+body{
+	width: 1200px;
+}
+header{
+	background-color: aqua;
+}
+
+.menu { color:blue
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	color: white;
+	background-color: darkgray;
+}
+.text__1 > p {
+	color:pink;
+	}
+.text__2 + p{
+	color:blueviolet;
+}
+.text__3 ~ p {
+	color: brown;
+}
+.text__4{
+	color: blue;
+}
+.text__4 .item {
+	color: khaki;
+}
+#paragrath{
+	color: chocolate;
+}
+.item.green{
+	color:green;
+}
+#cool{
+	color: black;
+}
+.footer { background-color: yellow;
+}
