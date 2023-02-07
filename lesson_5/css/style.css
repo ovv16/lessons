@@ -1,0 +1,111 @@
+@import url("reset.css");
+
+body{
+	font-family: 'Poppins', sans-serif;
+	color: rgba(108, 117, 125, 1);
+	background-color: rgba(229, 229, 229, 1);
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.78;
+}
+main{
+	max-width: 1260px;
+	margin: 0 auto;
+}
+.section__one,
+.section__two,
+.section__three{
+	max-width: 816px;
+	margin: 0 auto;
+}
+
+.title{
+	color: rgba(33, 37, 41, 1);
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+}
+.section__one .title{
+	max-width: 400px;
+	margin-top: 15px;
+}
+.section__two .title{
+	max-width: 605px;
+}
+.section__one p:last-child{
+	margin-bottom: 80px;
+}
+.section__two p:last-child{
+	margin-bottom: 80px;
+}
+.text{
+	margin: 0 auto;
+}
+p{
+	margin-bottom: 40px;
+}
+.image__one{
+	margin: auto;
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.image__two,
+.image__three{
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.image__two{
+	margin-right: 30px;
+}
+
+/* practice */
+
+.block {
+	color:white;
+	background: rgba(33, 37, 41, 1);
+	padding: 50px;
+	margin: 25px 150px 50px;
+	width: 500px;
+	overflow: scroll;
+}
+.inline {
+	background: rgba(221, 190, 169, 1);
+	padding: 5% 10%;
+	margin-left: 25%;
+}
+.inline-block {
+	background: rgba(94, 94, 94, 0.05);
+	padding: 50px;
+	max-width: 25%;
+	overflow: auto;
+}
+
+.block__inline{
+	color: white;
+	background-color: blueviolet;
+	display:inline-block;
+}
+.span{
+	vertical-align: bottom;
+}
+footer .title{
+	color: aliceblue;
+	background-color: grey;
+	display: block;
+	max-width: 100%;
+	text-align: center;
+	padding-top: 40px;
+	text-decoration: underline;
+}
+.list {
+	font-size: 0;
+}
+.list__item {
+	font-size: 20px;
+	display: inline-block;
+	background-color: #a2d893;
+	padding: 15px;
+	margin: 30px 0;
+}
