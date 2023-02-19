@@ -1,0 +1,323 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=wrap);
+@import url(https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=wrap);
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+/* One */
+.container__one{
+	width: 100%;
+	background-image: url(../img/arhitectura.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 100px;
+}
+
+
+.container__one .conteiner__text{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding:330px 15px 100px;
+	color: rgba(229, 229, 229, 1);
+	font-size: 12px;
+	line-height: 1.66;
+	font-weight: 300;
+}
+
+.container__one p:not(:last-child){
+	margin-bottom: 15px;
+}
+.price{
+	display: inline-block;
+}
+p, 
+.titel,
+.price,
+li,
+a,
+.block{
+	transition: 0.5s;
+}
+p:hover,
+.titel:hover,
+.price:hover,
+li:hover,
+a:hover,
+.block:hover{
+	transform: translateX(2px);
+}
+
+.container__one .titel{
+	color: rgba(248, 249, 250, 1);
+	font-size: 25px;
+	line-height: 1.6;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+/* Two */
+.container__two{
+	color: rgba(99, 115, 129, 1);
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 2;
+	max-width: 1145px;
+	margin: 0 auto 90px;
+	padding: 0 15px;
+}
+.container__two .titel{
+	color: rgba(33, 43, 54, 1);
+	font-size: 26px;
+	line-height: 1.07;
+	font-weight: 400;
+	margin-bottom: 45px;
+}
+.lists{
+	display: inline-block;
+}
+.container__two [class*="list__"]{
+	width: 350px;
+	margin-bottom: 60px;
+}
+.list__one li::before{
+	content: "";
+	display: inline-block;
+	background: url(../img/dot.png) no-repeat;
+	background-position: 0 5px;
+	height: 15px;
+	width: 10px;
+	padding-right: 20px;
+	transition: all 0.3s;
+}
+.list__one li:hover::before{
+	transform: scale(1.5); 
+}
+.list__one li:nth-child(even){
+	text-decoration: line-through;
+}
+
+.list__two li::before{
+	display: inline-block;
+	content: url(../img/ok.png);
+	padding-right: 10px;
+	transition: all 0.3s;
+}
+.list__two li:hover::before{
+	transform: rotate(0.1turn); 
+}
+.list__two li:nth-child(odd){
+	color: #212B36;
+}
+.list__three li::before{
+	content: url(../img/ok-gr.png);
+	padding-right: 10px;
+	display: inline-block;
+    transition: all 0.3s;	
+}
+.list__three li:hover::before{
+	transform: translateX(8px); 
+}
+.list__three li:nth-child(n+3){
+	text-decoration: overline;
+} 
+
+.list__four li::before{
+	content: url(../img/cancel.png);
+	padding-right: 10px;
+	display: inline-block;
+    transition: all 0.3s;
+}
+.list__four li:hover::before{
+	transform: rotate(1turn); 
+}
+.list__four li:nth-child(3n-1){
+	color: rgba(21, 103, 76, 0.53);
+} 
+
+.list__five li::before{
+	content: url(../img/arrow-right.png);
+	padding-right: 10px;
+	display: inline-block;
+    transition: all 0.3s;
+}
+.list__five li:hover::before{
+	transform: rotate(-0.5turn); 
+}
+.list__five li:nth-child(3){
+	font-style: italic;
+} 
+
+.list__six li::before{
+	content: url(../img/star.png);
+	padding-right: 10px;
+	display: inline-block;
+    transition: all 0.3s;
+}
+.list__six li:hover::before{
+	transform: skew(10deg, 5deg); 
+}
+.list__six li:nth-child(3n+1){
+	color: #13C296;
+} 
+
+/* Three */
+.container__three{
+	width: 100%;
+	font-family: 'Inter', sans-serif;
+	background-size: 100%;
+	background: linear-gradient(115deg, rgba(195,207,244,0.28904061624649857) 63%, rgba(203,214,246,0.6251750700280112) 63%, rgba(244,247,255,0.8156512605042017) 68%, rgba(48,86,211,0.18539915966386555) 68%);
+	
+}
+.item{
+	max-width: 1200px;
+	margin:0 auto ;
+}
+.container__three .container__text{
+	display:inline-block;
+	max-width: 750px;
+	margin: 0 auto;
+	padding:145px 170px 145px 15px;
+}
+.speaker{
+	padding: 80px 15px;
+	transition: 0.1s;
+}
+.speaker:hover{
+	transform:scale(1.05);
+}
+.price{
+	color: rgba(48, 86, 211, 1);
+	font-size: 18px;
+	line-height: 1.33;
+	font-weight: 600;
+	margin-bottom: 13px;
+}
+.container__three .titel{
+	color: rgba(33, 43, 54, 1);
+	font-size: 36px;
+	line-height: 1.25;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.container__three p{
+	color: rgba(99, 115, 129, 1);
+	max-width: 570px;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 35px;
+}
+.button{
+	color:white;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 600;
+	width: 139px;
+	background: #3056D3;
+    border-radius: 30px;
+	padding: 10px 30px;
+	transition: 0.5s;
+}
+
+.button:hover{
+	background: #13C296;
+}
+.button:active{
+	background: #212B36;
+}
+.button:focus{
+	color:black;
+	background: white;
+	outline: 2px solid #13C296;
+}
+
+/* ПРАКТИКА */
+.practica{
+	background: radial-gradient(circle, rgba(63,94,251,0.9052871148459384) 7%, rgba(87,149,233,0.891281512605042) 20%, rgba(171,80,169,1) 48%, rgba(213,70,252,0.8212535014005602) 99%);
+}
+.practica__container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 15px;
+}
+.practica__titel{
+	margin-bottom: 40px;
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 700;
+	display: inline-block;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.practica__text{
+	visibility: hidden;
+	opacity: 0;
+}
+.practica__container:hover .practica__titel{
+    visibility: visible;
+	opacity: 1;
+}
+.practica__titel:hover{
+	text-decoration: underline;
+}
+.practica__titel:hover +p{
+	visibility: visible;
+	opacity: 1;
+}
+
+.practica__container2{
+max-width: 1200px;
+margin: 0 auto;
+padding: 50px 15px;
+}
+.open-block{
+	color: aliceblue;
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 700;
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.practica__container2 *:not(:last-child){
+	margin-bottom: 40px;
+}
+.practica__container2 p:nth-child(3){
+	text-transform: uppercase;
+}
+.practica__container2 p:last-of-type{
+	color: blanchedalmond;
+}
+
+.open-block:hover{
+	text-decoration: underline;
+}
+.open-block:active{
+	color: #3056D3;
+}
+
+.block{
+	display: none;
+}
+.block:target{
+	display: block;
+}
+
+.practica__container3 ol{
+    margin-left: 20px;
+	margin-right: 20px;
+	counter-reset: item;
+}
+
+.practica__container3 ol li::before{
+	counter-increment: item;
+	content: counter(item) ")";
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 12px;
+	line-height: 1.6;
+}
