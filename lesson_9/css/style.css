@@ -1,0 +1,42 @@
+@import url("reset.css");
+
+.content-wrapper{
+	max-width: 1200px;
+	padding: 30px;
+	text-align: center;
+	margin: 30px auto;
+	background: rgba(0, 0, 0, 0.195);
+	border-radius: 15px;
+}
+
+.design-wrapper{
+	max-width: 1200px;
+	padding: 30px;
+	text-align: center;
+	margin: 30px auto;
+	background: rgb(118, 123, 33);
+	border-radius: 15px;
+}
+.icon-wrapper{
+	max-width: 1200px;
+	padding: 30px;
+	text-align: center;
+	margin: 30px auto;
+	background: rgba(35, 121, 45, 0.433);
+	border-radius: 15px;
+}
+
+.titel{
+	font-size: 30px;
+	line-height: 2;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.7);
+}
+.swiper-slide{
+	text-align: center;
+	margin: auto;
+	min-height: 130px;
+}
+.swiper-slide img{
+	max-width: 100%;
+}
