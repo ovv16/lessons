@@ -73,7 +73,7 @@ body{
 }
 
 .header__main{
-	background:  url(..img/header/header.webp) center / contain no-repeat;
+	background:  url(./img/header/header.webp) center / contain no-repeat;
 	margin: 0 auto 100px;
 }
 
